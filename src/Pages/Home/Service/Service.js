@@ -9,15 +9,27 @@ const Service = ({ service }) => {
         navigate(`/service/${id}`);
     }
     return (
-        <div className='service'>
-            <img className='w-75' src={img} alt="" />
-            <h3>{name}</h3>
-            <p>Rate: {price}</p>
-            <p><small>{description}</small></p>
-            <button onClick={() => navigateToServiceDetail(id)} className='btn btn-dark'>Invite Me</button>
+        <div className='g-5 col-sm-12 col-md-6 col-lg-4'>
+            <div className="card" style={{ width: "18rem" }}>
+                <img src={img} className="card-img-top" alt="..." />
+                <div className="card-body">
+                    <h5 className="card-title">{name}</h5>
+                    <p>Rate: {price} BDT</p>
+                    <p className="card-text"><small>{description}</small></p>
+
+                    <div className='text-center'>
+                        <button onClick={() => navigateToServiceDetail(id)} className="btn btn-dark ">Invite Me</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
 
 export default Service;
+
+
+
+
+
 

@@ -26,5 +26,19 @@
     "price": 8000,
     "description": "Go outside of your home and capture it. I will shoot the best image for You",
     "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/outdoor.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Family",
+    "price": 8000,
+    "description": "Capture your family time. I will shoot the best image for You",
+    "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/family.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Baby",
+    "price": 8000,
+    "description": "Capture your Baby's moment. I will shoot the best image for You",
+    "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/baby.jpg"
   }
 ]
