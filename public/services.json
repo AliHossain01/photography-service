@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Marriage",
+    "price": 6000,
+    "description": "The best day in your life. So don't miss it. I will shoot the best image for You",
+    "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/marriage.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Haldi Night",
+    "price": 10000,
+    "description": "The fun and joy of hour haldi night. I will shoot the best image for You",
+    "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/holud.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Reception",
+    "price": 14000,
+    "description": "The best part in your In-Law's house. I will shoot the best image for You",
+    "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/reception.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Outdoor",
+    "price": 8000,
+    "description": "Go outside of your home and capture it. I will shoot the best image for You",
+    "img": "https://raw.githubusercontent.com/AliHossain01/service-provider-images/main/outdoor.jpg"
+  }
+]
