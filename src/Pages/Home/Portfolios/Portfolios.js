@@ -1,31 +1,31 @@
 import React from 'react';
 
-import expert1 from '../../../images/experts/expert-1.jpg';
-import expert2 from '../../../images/experts/expert-2.jpg';
-import expert3 from '../../../images/experts/expert-3.jpg';
-import expert4 from '../../../images/experts/expert-4.jpg';
-import expert5 from '../../../images/experts/expert-5.jpg';
-import expert6 from '../../../images/experts/expert-6.png';
+import wedding1 from '../../../images/portfoli/wedding1.jpg';
+import wedding2 from '../../../images/portfoli/wedding2.jpg';
+import wedding3 from '../../../images/portfoli/wedding3.jpg';
+import wedding4 from '../../../images/portfoli/wedding4.jpg';
+import wedding5 from '../../../images/portfoli/wedding5.jpg';
+import wedding6 from '../../../images/portfoli/wedding6.jpg';
 import Portfolio from './../Portfolio/Portfolio';
 
-const experts = [
-    { id: 1, name: 'Will Smith', img: expert1 },
-    { id: 2, name: 'Chris Rock', img: expert2 },
-    { id: 3, name: 'Dwayne Rock', img: expert3 },
-    { id: 4, name: 'Messy Vai', img: expert4 },
-    { id: 5, name: 'Ronaldo Bro', img: expert5 },
-    { id: 6, name: 'Stachy Jhonson', img: expert6 },
+const weddings = [
+    { id: 1, name: 'Wedding', img: wedding1 },
+    { id: 2, name: 'Reception', img: wedding2 },
+    { id: 3, name: 'Haldi', img: wedding3 },
+    { id: 4, name: 'Farewell', img: wedding4 },
+    { id: 5, name: 'OutDoor', img: wedding5 },
+    { id: 6, name: 'Baby', img: wedding6 },
 ]
 
 const Portfolios = () => {
     return (
-        <div id='experts' className='container'>
+        <div id='portfolio' className='container'>
             <h2 className='text-dark text-center mt-5'> <strong><u>Portfolio</u></strong> </h2>
             <div className="row">
                 {
-                    experts.map(expert => <Portfolio
-                        key={expert.id}
-                        expert={expert}
+                    weddings.map(wedding => <Portfolio
+                        key={wedding.id}
+                        expert={wedding}
                     ></Portfolio>)
                 }
             </div>
