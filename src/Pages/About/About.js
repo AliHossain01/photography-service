@@ -8,7 +8,7 @@ const About = () => {
         <div className='wrapper'>
 
             <div class="product-img">
-                <img className='w-100 h-75' src={ali} alt="" />
+                <img className='w-100 h-100' src={ali} alt="" />
             </div>
 
             <div className='product-info'>
@@ -19,9 +19,9 @@ const About = () => {
                         I want to  <br /> be a Full Stack Web Developer in Future.</p>
 
                 </div>
-                <div class="product-price-btn">
+                <div className='text-center'>
 
-                    <button type="button">Hire Me</button>
+                    <button type="button" class="btn btn-dark btn-lg">Hire Me</button>
                 </div>
 
             </div>
