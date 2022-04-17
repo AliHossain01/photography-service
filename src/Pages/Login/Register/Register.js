@@ -60,7 +60,7 @@ const Register = () => {
                 <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="term" />
                 <label className={agree ? 'ps-2 text-primary' : 'ps-2 text-danger'} htmlFor="terms">Accept Car services Term and Conditions</label>
 
-                <input disabled={!agree} className='w-50 mx-auto btn btn-primary mt-2' type="submit" value="Register" />
+                <input disabled={!agree} className='w-50 mx-auto btn btn-dark mt-2' type="submit" value="Register" />
 
 
             </form>
