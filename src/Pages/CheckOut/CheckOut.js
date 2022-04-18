@@ -9,7 +9,7 @@ const CheckOut = () => {
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Thanks for inviting me for the best click</h5>
-                    <p class="card-text">I wil contact you within 24 hours.</p>
+                    <p class="card-text">I will contact you within 24 hours.</p>
                     <button className="btn btn-dark">Contact With Me</button>
                 </div>
             </div>

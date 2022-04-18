@@ -15,15 +15,23 @@ const ServiceDetail = () => {
 
     return (
         <div>
-            <h2>Welcome to details {serviceId}</h2>
-
-            <div className='text-center'>
-                <Link to="/checkout">
-                    <button className='btn btn-dark'>Proceed CheckOut</button>
-                </Link>
+            <div class="card w-50 mx-auto mt-5 text-center">
+                <div class="card-header">
+                    <h2>Welcome</h2>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Thanks for inviting me for the best click</h5>
+                    <p class="card-text">Hope you will get a wonderful experience </p>
+                    <div className='text-center'>
+                        <Link to="/checkout">
+                            <button className='btn btn-dark'>Confirm Booking</button>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </div>
     );
 };
 
-export default ServiceDetail; 
+export default ServiceDetail;
+
