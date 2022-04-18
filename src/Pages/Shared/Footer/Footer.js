@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
                         <h6>About</h6>
-                        <p class="text-justify">A's Click is a Photography Service Provider. A's Click provides service on different occasions marriage, reception, birthday, outdoor shoot etc. </p>
+                        <p className="text-justify">A's Click is a Photography Service Provider. A's Click provides service on different occasions marriage, reception, birthday, outdoor shoot etc. </p>
                     </div>
 
                     <div className="col-xs-6 col-md-3">

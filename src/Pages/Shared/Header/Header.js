@@ -6,6 +6,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from './../../../firebase.init';
 import { signOut } from 'firebase/auth';
 import './Header.css';
+import { FiLogIn } from 'react-icons/fi';
+import { FiLogOut } from 'react-icons/fi';
 
 const Header = () => {
     const [user] = useAuthState(auth);
@@ -31,9 +33,9 @@ const Header = () => {
                         <Nav>
                             <Nav.Link as={Link} to="blog" className='effects'>Blog</Nav.Link>
                             <Nav.Link as={Link} to="about" className='effects'>About</Nav.Link>
-                            {user ? <button className='btn btn-link text-white effects text-decoration-none' onClick={handleSignOut}>Sign out</button>
+                            {user ? <button className='btn btn-link text-white effects text-decoration-none' onClick={handleSignOut}>Sign out <FiLogOut /> </button>
                                 :
-                                <Nav.Link as={Link} to="login" className='effects'>Login</Nav.Link>}
+                                <Nav.Link as={Link} to="login" className='effects'>Sign In <FiLogIn /></Nav.Link>}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

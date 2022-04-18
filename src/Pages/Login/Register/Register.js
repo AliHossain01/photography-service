@@ -51,20 +51,27 @@ const Register = () => {
     return (
         <div className='register-form'>
             <h2 style={{ textAlign: 'center' }}>Please Register</h2>
+
+
+
+
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your Name' />
 
                 <input type="email" name="email" id="2" placeholder='Email Address' required />
                 <input type="password" name="password" id="3" placeholder='Password' required />
 
-                <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="term" />
-                <label className={agree ? 'ps-2 text-primary' : 'ps-2 text-danger'} htmlFor="terms">Accept Car services Term and Conditions</label>
+                {/* <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="term" />
+                <label className={agree ? 'ps-2 text-primary' : 'ps-2 text-danger'} htmlFor="terms">Accept Car services Term and Conditions</label> */}
 
-                <input disabled={!agree} className='w-50 mx-auto btn btn-dark mt-2' type="submit" value="Register" />
+                <input className='w-25 mx-auto btn btn-dark mt-2' type="submit" value="Sign Up" />
 
 
             </form>
-            <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+
+
+
+            <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Sign In</Link> </p>
             <SocialLogin></SocialLogin>
         </div>
     );

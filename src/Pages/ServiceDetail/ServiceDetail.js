@@ -15,16 +15,16 @@ const ServiceDetail = () => {
 
     return (
         <div>
-            <div class="card w-50 mx-auto mt-5 text-center">
-                <div class="card-header">
+            <div className="card w-50 mx-auto mt-5 text-center">
+                <div className="card-header">
                     <h2>Welcome</h2>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Thanks for inviting me for the best click</h5>
-                    <p class="card-text">Hope you will get a wonderful experience </p>
+                <div className="card-body">
+                    <h5 className="card-title">Thanks for inviting me for the best click</h5>
+                    <p className="card-text">Hope you will get a wonderful experience </p>
                     <div className='text-center'>
                         <Link to="/checkout">
-                            <button className='btn btn-dark'>Confirm Booking</button>
+                            <button className='btn btn-outline-dark'>Confirm Booking</button>
                         </Link>
                     </div>
                 </div>
