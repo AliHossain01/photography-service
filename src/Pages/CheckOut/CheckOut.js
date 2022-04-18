@@ -4,7 +4,7 @@ const CheckOut = () => {
     return (
         <div>
             <div className="card w-50 mx-auto mt-5 text-center">
-                <div className="card-header text-success">
+                <div className="card-header text-info">
                     Booking Confirmation
                 </div>
                 <div className="card-body">
